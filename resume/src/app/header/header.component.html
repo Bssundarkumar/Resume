@@ -1,24 +1,25 @@
-<nav class="navbar navbar-default"  style="background:rgb(255, 81, 0)">
+<nav class="navbar navbar-default"  style="background:rgb(152, 25, 38);">
   <div class="container-fluid" >
       <div class="navbar-header">
-          <a  class="navbar-brand" >Sundar Kumar</a>
+          <a  class="navbar-brand" ></a>
       </div>
-       <div class="collapse navbar-collapse" >
-           <ul class="nav navbar-nav" >
+       <div class="collapse navbar-collapse list-group" >
+           <ul class="nav navbar-nav list-group" >
                <li>
-                   <a href="#" >Home</a>
+                  <!-- <a class="list-group-item" href="#"><i class="fa fa-home fa-fw" aria-hidden="true"></i>&nbsp; Home</a> -->
+                   <a href="#" (click)="onSelect('home')" >Home</a>
                </li>
                <li>
-                  <a href="#" >Summary</a>
+                  <a href="#" (click)="onSelect('summary')">Summary</a>
                </li>
                <li>
-                 <a href="#" >Skills</a>
+                  <a href="#" (click)="onSelect('skills')" >Skills</a>
                </li>
                <li>
-                  <a href="#" >Education</a>
+                  <a href="#" (click)="onSelect('education')" >Education</a>
                </li>
                <li>
-                  <a href="#" >Experience</a>
+                  <a href="#" (click)="onSelect('experience')" >Experience</a>
                </li>
            </ul>
          

@@ -1,0 +1,35 @@
+.email {
+    font-size: 20px;
+    color: black;
+    width: auto;
+}
+
+.fa-desktop {
+    background: #e64747;
+    color: white;
+    font-size: 120px;
+    width: 220px;
+    padding: 20px;
+}
+.fa-file-code-o{
+    background: #e64747;
+    color: white;
+    font-size: 120px;
+    width: 220px;
+    padding: 20px;
+}
+.logo{
+    margin-right: 2.1em;
+}
+.fa.pull-left {
+    margin-right: -7.7em;
+}
+/* .fa {
+    padding-left: 20px;
+    font-size: 30px;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    /* margin: 5px 2px; 
+  }
+   */

@@ -1,11 +1,11 @@
-<app-header></app-header>
+<app-header (selectedFeature)="onNavigateFeature($event)"></app-header>
 
 <div class="row">
     <div class="col-md-12">
-        <app-home></app-home>
-        <app-summary></app-summary>
-        <app-skills></app-skills>
-        <app-education></app-education>
-        <app-experience></app-experience>
+        <app-home *ngIf="loadedFeature ==='home'"></app-home>
+        <app-summary *ngIf="loadedFeature ==='summary'"></app-summary>
+        <app-skills *ngIf="loadedFeature ==='skills'"></app-skills>
+        <app-education *ngIf="loadedFeature ==='education'"></app-education>
+        <app-experience *ngIf="loadedFeature ==='experience'"></app-experience> 
     </div>
 </div>

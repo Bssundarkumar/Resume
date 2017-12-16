@@ -1,15 +1,31 @@
-<a href="#" class="list-group-item clearfix"
-(click)="onSelectedItem()"
->
-  <div class="pull-right" >
-    <h4 class="list-group-item-heading">Hi</h4>
-    <p class="list-group-item-text">hello</p>
-  </div>
-  <span class="pull-left">
+<div class="row">
+  <div class="col-xs-4">
       <img    
-       [src]="recipe.imagePath"
-        alt="{{recipe.name}}"
+       src="assets/images/sundar.jpg"
+        alt="sundar"
         class="img-responsive" 
-        style="max-height:50px;">
-    </span>
-</a>
+        style="max-height:300px;">
+  </div>
+  <div class="col-xs-8 "  >
+      <h2 class="list-group-item-heading">Satya Sundar Kumar Bandiguptapu</h2>
+      <h4 class="list-group-item-text">FullStack Java Developer</h4> <br>
+    <div class="col-xs-4 contact">
+      <a href="#" class="fa fa-envelope email pull-left">&nbsp;bssundarkumar@gmail.com</a><br><br>
+      <a href="#" class="fa fa-phone email pull-left">&nbsp;{{phoneNumber}}</a><br><br>
+     
+
+    </div>
+    <div class="col-xs-4 address">
+        <a href="#" class="	fa fa-home email ">&nbsp;<br>
+                                                         791 Hermann Rd
+                                                         North Brunswick
+                                                         NJ-08902
+        </a><br><br>
+
+    </div>
+    <div class="col-xs-8 logo">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.linkedin.com/in/bssundarkumar" class="fa fa-linkedin"></a>&nbsp;&nbsp;&nbsp;
+        <a href="https://github.com/Bssundarkumar" class="fa fa-github"></a>
+      </div>
+    </div>
+</div>

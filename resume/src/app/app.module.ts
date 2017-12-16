@@ -8,6 +8,7 @@ import { SummaryComponent } from './summary/summary.component';
 import { SkillsComponent } from './skills/skills.component';
 import { EducationComponent } from './education/education.component';
 import { ExperienceComponent } from './experience/experience.component';
+import {IconComponent} from 'angular2-svg-icons';
 
 @NgModule({
   declarations: [
@@ -17,8 +18,10 @@ import { ExperienceComponent } from './experience/experience.component';
     SummaryComponent,
     SkillsComponent,
     EducationComponent,
-    ExperienceComponent
+    ExperienceComponent,
+    IconComponent
   ],
+  exports:[IconComponent],
   imports: [
     BrowserModule
   ],
