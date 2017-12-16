@@ -12,12 +12,14 @@
     max-width: 100%;
     margin-bottom: 11px;
     margin-top: 75px;
+    font-size: 20px;
 }
 .tabCon{
     text-align: center;
 }
 #firstCol{
     font-weight: bold;
+   
     
     background-color: coral;
 }

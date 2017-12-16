@@ -5,14 +5,14 @@
 }
 
 .fa-desktop {
-    background: #e64747;
+    background: hsl(354, 72%, 35%);
     color: white;
     font-size: 120px;
     width: 220px;
     padding: 20px;
 }
 .fa-file-code-o{
-    background: #e64747;
+    background: hsl(354, 72%, 35%);
     color: white;
     font-size: 120px;
     width: 220px;
