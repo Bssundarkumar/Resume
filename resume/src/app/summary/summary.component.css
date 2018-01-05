@@ -1,7 +1,7 @@
 .email {
     font-size: 20px;
     color: black;
-    width: auto;
+    width: auto!important;
 }
 
 .fa-desktop {
@@ -10,6 +10,7 @@
     font-size: 120px;
     width: 220px;
     padding: 20px;
+    border-radius: 30px;
 }
 .fa-file-code-o{
     background:rgb(41, 1, 44);
@@ -24,12 +25,11 @@
 .fa.pull-left {
     margin-right: -7.7em;
 }
-/* .fa {
-    padding-left: 20px;
-    font-size: 30px;
-    width: 100px;
+.fa {
+    /* padding-left: 20px; */
+   
+    width: auto;
     text-align: center;
-    text-decoration: none;
-    /* margin: 5px 2px; 
-  }
-   */
+    /* text-decoration: none; */
+    border-radius: 30px;
+}
