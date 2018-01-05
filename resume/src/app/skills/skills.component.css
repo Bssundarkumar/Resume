@@ -1,9 +1,4 @@
-/* .table{
-    margin-top: 0.5em; 
-}
-.skill{
-    margin-top: 0.5em; 
-} */
+
 .skill{
    text-align: center;
 }
@@ -17,9 +12,8 @@
 .tabCon{
     text-align: center;
 }
-#firstCol{
-    font-weight: bold;
-   
-    
-    background-color: coral;
+#firstCol[_ngcontent-c2] {
+    font-weight: 500;
+    color: white;
+    background-color: rgb(41, 1, 44);
 }

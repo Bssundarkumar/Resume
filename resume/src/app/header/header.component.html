@@ -1,28 +1,16 @@
-<nav class="navbar navbar-default"  style="background:rgb(152, 25, 38);">
+<nav class="navbar navbar-default"  style="background:rgb(41, 1, 44);">
   <div class="container-fluid" >
       <div class="navbar-header">
           <a  class="navbar-brand" ></a>
       </div>
        <div class="collapse navbar-collapse list-group" >
            <ul class="nav navbar-nav list-group" >
-               <li>
-                  <!-- <a class="list-group-item" href="#"><i class="fa fa-home fa-fw" aria-hidden="true"></i>&nbsp; Home</a> -->
-                   <a href="#" (click)="onSelect('home')" >Home</a>
-               </li>
-               <li>
-                  <a href="#" (click)="onSelect('summary')">Summary</a>
-               </li>
-               <li>
-                  <a href="#" (click)="onSelect('skills')" >Skills</a>
-               </li>
-               <li>
-                  <a href="#" (click)="onSelect('education')" >Education</a>
-               </li>
-               <li>
-                  <a href="#" (click)="onSelect('experience')" >Experience</a>
-               </li>
+               <li routerLinkActive="active"><a routerLink="home" >Home</a></li>
+               <li routerLinkActive="active"> <a  routerLink="summary">Summary</a></li>
+               <li routerLinkActive="active"><a  routerLink="skills">Skills</a></li>
+               <li routerLinkActive="active"><a  routerLink="education" >Education</a></li>
+               <li routerLinkActive="active"><a  routerLink="experience">Experience</a></li>
            </ul>
-         
        </div>
   </div>
 </nav>
