@@ -9,6 +9,11 @@ import { SkillsComponent } from './skills/skills.component';
 import { EducationComponent } from './education/education.component';
 import { ExperienceComponent } from './experience/experience.component';
 import { AppRoutingModule } from './app-routing.module';
+import { ExperienceDetailsComponent } from './experience/experience-details/experience-details.component';
+import { ExperienceListComponent } from './experience/experience-list/experience-list.component';
+import { ExperienceEmpComponent } from './experience/experience-list/experience-emp/experience-emp.component';
+import { ExperienceService } from './experience/experience.serveice';
+import { ExperienceStartComponent } from './experience/experience-start/experience-start.component';
 
 
 @NgModule({
@@ -19,7 +24,11 @@ import { AppRoutingModule } from './app-routing.module';
     SummaryComponent,
     SkillsComponent,
     EducationComponent,
-    ExperienceComponent
+    ExperienceComponent,
+    ExperienceDetailsComponent,
+    ExperienceListComponent,
+    ExperienceEmpComponent,
+    ExperienceStartComponent
   
   ],
 
@@ -27,7 +36,7 @@ import { AppRoutingModule } from './app-routing.module';
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [ExperienceService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

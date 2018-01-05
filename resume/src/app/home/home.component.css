@@ -17,6 +17,7 @@
     width: 100px;
     text-align: center;
     text-decoration: none;
+    border-radius:30px;
     /* margin: 5px 2px; */
   }
   
@@ -51,6 +52,7 @@ img{
 }
 .address{
     margin-left: 15.3ex;
+    border:1px #070707;
 }
 
 .contact{

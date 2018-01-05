@@ -1,0 +1,15 @@
+
+
+h5{
+    font-weight: 600;
+}
+.content{
+    border: 1px solid #ddd;
+    border-radius: 4px; 
+    margin: 1px;
+    margin-right: 10px;
+    padding-left: 8px;
+}
+.col-xs-5 {
+    width: auto; 
+}
