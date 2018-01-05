@@ -47,8 +47,9 @@
     margin-top: 2.1em;
 }
 img{
-    margin-left: 0.3em;
-    
+    margin-left: 25px;
+    border-radius: 28px;
+    margin-top: 25px;
 }
 .address{
     margin-left: 15.3ex;
@@ -58,4 +59,8 @@ img{
 .contact{
     margin-left: 0.3ex;
     margin-top: 2.1ex;
+}
+img.center {
+    display: block;
+    margin: 0 auto;
 }

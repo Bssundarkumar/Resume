@@ -8,7 +8,7 @@ import { Experience } from '../../experience.model';
 })
 export class ExperienceEmpComponent implements OnInit {
   @Input() experience: Experience;
-  @Input() index: number;
+  @Input() index=0;
   constructor() { }
 
   ngOnInit() {

@@ -10,3 +10,7 @@
 h2{
     color:rgb(133, 20, 141);
 }
+.fa-mortar-board:before, .fa-graduation-cap:before {
+    content: "\F19D";
+    margin-left: 35px;
+}
