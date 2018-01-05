@@ -8,7 +8,7 @@
     background: rgb(41, 1, 44);
     color: white;
     font-size: 120px;
-    width: 220px;
+    width: 220px!important;
     padding: 20px;
     border-radius: 30px;
 }
@@ -16,7 +16,7 @@
     background:rgb(41, 1, 44);
     color: white;
     font-size: 120px;
-    width: 220px;
+    width: 220px !important;
     padding: 20px;
 }
 .logo{
