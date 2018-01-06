@@ -16,7 +16,8 @@ const appRoute: Routes=[
     {path:'home',component:HomeComponent},
     {path:'education',component:EducationComponent},
     {path:'experience',component:ExperienceComponent,children:[
-            // {path:'',component:ExperienceStartComponent},
+            {path:'',redirectTo:"0",pathMatch:'full'},
+            {path:'+0',component:ExperienceDetailsComponent},
             {path:':id', component:ExperienceDetailsComponent}
     ]},
     {path:'summary',component:SummaryComponent},
