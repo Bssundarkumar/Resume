@@ -4,16 +4,25 @@ h5{
     font-weight: 600;
 }
 .content{
-    border: 1px solid #ddd;
+    /* border: 1px solid #ddd; */
     border-radius: 4px; 
-    margin: 1px;
-    margin-right: 10px;
+    /* margin: 1px; */
+    width: 850px;
     padding-left: 8px;
-    /* overflow: auto; */
-}
+   
+ }  
 .col-xs-5 {
     width: auto; 
 }
 h4{
     margin-right: 67px;
+    color: white;
+}
+.row1{
+    background-color: rgb(41, 1, 44);
+    
+}
+h3{
+    color: rgb(41, 1, 44);
+    font-weight: 500;
 }
