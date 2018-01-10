@@ -1,9 +1,9 @@
 export class CertificationsModel{
-    private title:string;
-    private cname:string;
-    private cdate:string;
-    private curl:string;
-    private cimg:string;
+    public title:string;
+    public cname:string;
+    public cdate:string;
+    public curl:string;
+    public cimg:string;
 
     constructor(
          title:string,
