@@ -1,18 +1,18 @@
 <div class="content box">
   <div class="row row1 ">
     <div class="pull-left">
-          <h4 style="padding-left:15px;">{{certificate.certificationName}}</h4>
+          <h4 style="padding-left:15px;">{{certificate.cname}}</h4>
     </div>
     <div class="pull-right">
-          <h4>{{certificate.certificationDate}}</h4>
+          <h4>{{certificate.cdate}}</h4>
     </div>
   </div>
  
   <div class="row">
   <div class="col-xs-12">
     <img
-      [src]="certificate.certificationImg"
-      alt="{{ certificate.certificationName }}"
+      [src]="certificate.cimg"
+      alt="{{ certificate.cname }}"
       class="img-responsive img1"
       >
   </div>
@@ -20,7 +20,7 @@
   <div class="row row2">  
     <div class="col-xs-12">
       <h4>Licence:
-      <a style="color:white;" href="certificate.certificationurl">{{certificate.certificationurl}}</a></h4>
+      <a style="color:white;" href="certificate.curl">{{certificate.curl}}</a></h4>
     </div>
   </div>
 

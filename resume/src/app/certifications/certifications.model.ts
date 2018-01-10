@@ -1,21 +1,21 @@
 export class CertificationsModel{
     private title:string;
-    private certificationName:string;
-    private certificationDate:string;
-    private certificationurl:string;
-    private certificationImg:string;
+    private cname:string;
+    private cdate:string;
+    private curl:string;
+    private cimg:string;
 
     constructor(
          title:string,
-         certificationName:string,
-         certificationDate:string,
-         certificationurl:string,
-         certificationImg:string){
+         cname:string,
+         cdate:string,
+         curl:string,
+         cimg:string){
             this.title=title;
-            this.certificationName=certificationName;
-            this.certificationDate=certificationDate;
-            this.certificationurl=certificationurl;
-            this.certificationImg=certificationImg;
+            this.cname=cname;
+            this.cdate=cdate;
+            this.curl=curl;
+            this.cimg=cimg;
     }
 
 }
