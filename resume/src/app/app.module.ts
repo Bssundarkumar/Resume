@@ -14,6 +14,11 @@ import { ExperienceListComponent } from './experience/experience-list/experience
 import { ExperienceEmpComponent } from './experience/experience-list/experience-emp/experience-emp.component';
 import { ExperienceService } from './experience/experience.serveice';
 import { ExperienceStartComponent } from './experience/experience-start/experience-start.component';
+import { CertificationsComponent } from './certifications/certifications.component';
+import { CertificateDetailsComponent } from './certifications/certificate-details/certificate-details.component';
+import { CertificateListComponent } from './certifications/certificate-list/certificate-list.component';
+import { CertificaionsServices } from './certifications/certifications.services';
+import { CertificteComponent } from './certifications/certificate-list/certificte/certificte.component';
 
 
 @NgModule({
@@ -28,15 +33,18 @@ import { ExperienceStartComponent } from './experience/experience-start/experien
     ExperienceDetailsComponent,
     ExperienceListComponent,
     ExperienceEmpComponent,
-    ExperienceStartComponent
-  
+    ExperienceStartComponent,
+    CertificationsComponent,
+    CertificateDetailsComponent,
+    CertificateListComponent,
+    CertificteComponent,
   ],
 
   imports: [
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [ExperienceService],
+  providers: [ExperienceService,CertificaionsServices],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

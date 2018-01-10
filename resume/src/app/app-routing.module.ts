@@ -9,6 +9,8 @@ import { SummaryComponent } from "./summary/summary.component";
 import { SkillsComponent } from "./skills/skills.component";
 import { ExperienceStartComponent } from "./experience/experience-start/experience-start.component";
 import { ExperienceDetailsComponent } from "./experience/experience-details/experience-details.component";
+import { CertificationsComponent } from "./certifications/certifications.component";
+import { CertificateDetailsComponent } from "./certifications/certificate-details/certificate-details.component";
 
 
 const appRoute: Routes=[
@@ -21,7 +23,12 @@ const appRoute: Routes=[
             {path:':id', component:ExperienceDetailsComponent}
     ]},
     {path:'summary',component:SummaryComponent},
-    {path:'skills',component:SkillsComponent}
+    {path:'skills',component:SkillsComponent},
+    {path:'certifications',component:CertificationsComponent,children:[
+        {path:'',redirectTo:"0",pathMatch:'full'},
+        {path:'+0',component:CertificateDetailsComponent},
+        {path:':id', component:CertificateDetailsComponent}
+    ]}
 ]
 @NgModule({
     imports:[RouterModule.forRoot(appRoute)],

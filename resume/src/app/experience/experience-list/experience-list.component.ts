@@ -11,7 +11,7 @@ import { ActivatedRoute } from '@angular/router';
   styleUrls: ['./experience-list.component.css']
 })
 export class ExperienceListComponent implements OnInit {
-  @Output() selectedExperience=new EventEmitter<Experience>();
+  // @Output() selectedExperience=new EventEmitter<Experience>();
   experiences: Experience[];
   constructor(private experienceService: ExperienceService) { }
 
