@@ -12,3 +12,8 @@
     padding-left: 8px;
     padding-right: 8px;
 }
+.list-group-item.active {
+    color: #fff;
+    background-color: #29012c;
+    border-color: #29012c;  
+}
