@@ -1,4 +1,19 @@
-<router-outlet *ngIf="!showMode"></router-outlet>
+<div class="row">
+    <div class="col-xs-12">
+        <Button class="btnhi btn btn-primary " 
+        (click)="onHideCertificate()" *ngIf="!showMode">
+        <i class="fa fa-hand-o-left" aria-hidden="true"></i> Back To Education</Button>           
+   <br>
+    </div>
+    
+    <div class="col-xs-12">
+        <router-outlet *ngIf="!showMode"></router-outlet>
+    </div>
+</div>
+
+
+
+
 <div class="row" *ngIf="showMode">
     <div class="col-xs-4 skill">
          <div class="row">
@@ -21,7 +36,7 @@
 <div class="row">
         <div class="col-xs-12 col-md-8 col-sm-10 col-sm-offset-1 col-md-offset-2">
                 <Button class="btn btn-primary" (click)="onShowCertificate()" *ngIf="showMode"><i class="fa fa-hand-o-right" aria-hidden="true"></i> Certifications</Button>   
-                <Button class="btnhi btn btn-primary " (click)="onHideCertificate()" *ngIf="!showMode"><i class="fa fa-hand-o-left" aria-hidden="true"></i> Back To Education</Button>           
+                
          </div>
   </div>
 
