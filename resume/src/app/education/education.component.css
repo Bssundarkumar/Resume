@@ -7,6 +7,26 @@
 .fa-graduation-cap{
     color: rgb(41, 1, 44) ;
 }
+
+.btnhi{
+    margin-top: -223px!important;
+    margin-left: -98px!important;
+    position: fixed;
+}
+.btn{
+    padding: 9px 18px;
+    font-size: 22px;
+    margin: auto;
+    margin-top:38px;
+    display:block;
+    
+}
+.btn-primary {
+    color: #fff;
+    background-color: rgb(41, 1, 44);
+    border-color: rgb(41, 1, 44);
+}
+
 h2{
     color:rgb(41, 1, 44)    ;
 }

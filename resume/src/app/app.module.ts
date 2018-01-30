@@ -37,7 +37,7 @@ import { CertificteComponent } from './certifications/certificate-list/certifict
     CertificationsComponent,
     CertificateDetailsComponent,
     CertificateListComponent,
-    CertificteComponent,
+    CertificteComponent
   ],
 
   imports: [

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-certifications',
@@ -6,10 +7,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./certifications.component.css']
 })
 export class CertificationsComponent implements OnInit {
-
-  constructor() { }
+  showMode=false;
+  constructor(private router:Router) { }
 
   ngOnInit() {
   }
+
+
 
 }

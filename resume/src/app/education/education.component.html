@@ -1,6 +1,12 @@
-<div class="row">
+<router-outlet *ngIf="!showMode"></router-outlet>
+<div class="row" *ngIf="showMode">
     <div class="col-xs-4 skill">
-          <a  style="cursor:pointer;" class="fa fa-graduation-cap email pull-left"></a>
+         <div class="row">
+             <div class="col-xs-12">
+                    <a  class="fa fa-graduation-cap email pull-left"></a>     
+             </div>
+            
+         </div>
     </div>
     <div class="col-xs-8 tabCon">
         <h2>Master’s Degree: Computer Science  </h2>
@@ -11,4 +17,13 @@
         <h3>Jawaharlal Nehru Technological University - India</h3>
         <h3>July 2010 - May 2014</h3>
     </div>
+</div>
+<div class="row">
+        <div class="col-xs-12 col-md-8 col-sm-10 col-sm-offset-1 col-md-offset-2">
+                <Button class="btn btn-primary" (click)="onShowCertificate()" *ngIf="showMode">Certifications</Button>   
+                <Button class="btnhi btn btn-primary " (click)="onHideCertificate()" *ngIf="!showMode">Back To Education</Button>           
+         </div>
   </div>
+
+<br><br>
+  

@@ -16,7 +16,15 @@ import { CertificateDetailsComponent } from "./certifications/certificate-detail
 const appRoute: Routes=[
     {path:'',redirectTo:"home", pathMatch:'full'},
     {path:'home',component:HomeComponent},
-    {path:'education',component:EducationComponent},
+    {path:'education',component:EducationComponent,children:[
+        {path:'',redirectTo:"0",pathMatch:'full'},
+        {path:'certifications',component:CertificationsComponent,children:[
+            {path:'',redirectTo:"0",pathMatch:'full'},
+            {path:'+0',component:CertificateDetailsComponent},
+            {path:':id', component:CertificateDetailsComponent}
+        ]}
+
+    ]},
     {path:'experience',component:ExperienceComponent,children:[
             {path:'',redirectTo:"0",pathMatch:'full'},
             {path:'+0',component:ExperienceDetailsComponent},
