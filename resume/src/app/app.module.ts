@@ -19,6 +19,7 @@ import { CertificateDetailsComponent } from './certifications/certificate-detail
 import { CertificateListComponent } from './certifications/certificate-list/certificate-list.component';
 import { CertificaionsServices } from './certifications/certifications.services';
 import { CertificteComponent } from './certifications/certificate-list/certificte/certificte.component';
+import { ProjectComponent } from './project/project.component';
 
 
 @NgModule({
@@ -37,7 +38,8 @@ import { CertificteComponent } from './certifications/certificate-list/certifict
     CertificationsComponent,
     CertificateDetailsComponent,
     CertificateListComponent,
-    CertificteComponent
+    CertificteComponent,
+    ProjectComponent
   ],
 
   imports: [

@@ -1,38 +1,40 @@
-.email {
-    font-size: 242px;
-    color: black;
-    width: 251px;
-    margin-top: 17px;
-}
-.fa-graduation-cap{
-    color: rgb(41, 1, 44) ;
-}
+
 
 .btnhi{
     margin-top: -17px!important;
     padding: 2px 7px!important;
     font-size: 8px;
+    margin-left: 2px!important;
+    margin-bottom: 4px!important;
 } 
+img{
+    display: block;
+     /* border-radius: 128px;  */
+     margin-top: 25px;
+     max-height: 450PX;
+     margin-left: 25px!important;
+     margin-right: 25px!important; 
+     max-width: 450px;
+ }
 .btn{
     padding: 5px 14px;
     font-size: 18px;
-    /* margin: auto; */
-    margin-top:38px;
-    margin-left: 2px;
-    margin-bottom: 4px;
+    margin: auto; 
+    margin-top:25px;
+    /* margin-left: auto;
+    margin-bottom: 4px; */
     display:block;
-    
+   
 }
 .btn-primary {
     color: #fff;
     background-color: rgb(41, 1, 44);
     border-color: rgb(41, 1, 44);
 }
-
-h2{
-    color:rgb(41, 1, 44)    ;
-}
-.fa-mortar-board:before, .fa-graduation-cap:before {
-    content: "\F19D";
-    margin-left: 35px;
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 21;
+    border-top: 3px solid rgb(41, 1, 44);
+    margin-left: 23px;
 }

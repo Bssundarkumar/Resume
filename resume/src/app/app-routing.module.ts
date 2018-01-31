@@ -11,6 +11,7 @@ import { ExperienceStartComponent } from "./experience/experience-start/experien
 import { ExperienceDetailsComponent } from "./experience/experience-details/experience-details.component";
 import { CertificationsComponent } from "./certifications/certifications.component";
 import { CertificateDetailsComponent } from "./certifications/certificate-details/certificate-details.component";
+import { ProjectComponent } from "./project/project.component";
 
 
 const appRoute: Routes=[
@@ -36,7 +37,8 @@ const appRoute: Routes=[
         {path:'',redirectTo:"0",pathMatch:'full'},
         {path:'+0',component:CertificateDetailsComponent},
         {path:':id', component:CertificateDetailsComponent}
-    ]}
+    ]},
+    {path:'projects',component:ProjectComponent}
 ]
 @NgModule({
     imports:[RouterModule.forRoot(appRoute)],
