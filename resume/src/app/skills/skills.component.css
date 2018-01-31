@@ -2,7 +2,13 @@
 .skill{
    text-align: center;
 }
-.table {
+hr {
+     margin-top: -7px; 
+     margin-bottom: 7px; 
+    border: 0;
+    border-top: 1px solid rgb(41, 1, 44);
+}
+/* .table {
     width: 66%;
     max-width: 100%;
     margin-bottom: 11px;
@@ -16,4 +22,55 @@
     font-weight: 500;
     color: white;
     background-color: rgb(41, 1, 44);
+} */
+
+/* Make sure that padding behaves as expected */
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.container {
+    width: 100%; /* Full width */
+    background-color: white; /* Grey background */
 }
+.ot{
+    margin-top: 13px!important;
+}
+h4 {
+    margin-top: -10px;
+    font-weight: bold;
+    text-underline-position: auto;
+    color:rgb(41, 1, 44);
+}
+.skills {
+   /* Right-align text */
+   padding-right: 10px;
+    padding-right: 10px; /* Add some right padding */
+    line-height: 25px; /* Set the line-height to center the text inside the skill bar, and to expand the height of the container */
+    color: white; /* White text color */
+}
+.rt{
+    text-align: right; 
+    color: white;
+   
+}
+.lt{
+    font-weight: bold;
+    text-align: left; 
+    padding-left: 10px;
+    color: white;
+}
+.java {width: 80%; background-color: rgb(51, 9, 54);} /* Green */
+.html {width: 90%; background-color: rgb(51, 9, 54);} /* Green */
+.css {width: 85%; background-color: rgb(51, 9, 54);} /* Blue */
+.spring {width: 75%; background-color: rgb(51, 9, 54);} /* Blue */
+.js {width: 75%; background-color: rgb(51, 9, 54);} /* Red */
+.hibernate {width: 80%; background-color: rgb(51, 9, 54);} /* Red */
+.php {width: 60%; background-color: rgb(51, 9, 54);} /* Dark Grey */
+.rest {width: 70%; background-color: rgb(51, 9, 54);} /* Dark Grey */
+.ang {width: 70%; background-color: rgb(51, 9, 54);}
+.sb {width: 85%; background-color: rgb(51, 9, 54);}
+.jq {width: 75%; background-color: rgb(51, 9, 54);} /* Red */
+.ms {width: 90%; background-color: rgb(51, 9, 54);}
+.gt {width: 70%; background-color: rgb(51, 9, 54);}
+.bt {width: 70%; background-color: rgb(51, 9, 54);}
+.hb {width: 50%; background-color: rgb(51, 9, 54);}
