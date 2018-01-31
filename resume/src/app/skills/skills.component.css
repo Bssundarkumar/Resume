@@ -59,18 +59,18 @@ h4 {
     padding-left: 10px;
     color: white;
 }
-.java {width: 80%; background-color: rgb(51, 9, 54);} /* Green */
-.html {width: 90%; background-color: rgb(51, 9, 54);} /* Green */
-.css {width: 85%; background-color: rgb(51, 9, 54);} /* Blue */
-.spring {width: 75%; background-color: rgb(51, 9, 54);} /* Blue */
-.js {width: 75%; background-color: rgb(51, 9, 54);} /* Red */
-.hibernate {width: 80%; background-color: rgb(51, 9, 54);} /* Red */
+.java {width: 80%; background-color: rgb(88, 26, 7);} /* Green */
+.html {width: 90%; background-color: rgb(6, 32, 119);} /* Green */
+.css {width: 85%; background-color: rgb(102, 3, 3);} /* Blue */
+.spring {width: 75%; background-color: rgb(134, 122, 13);} /* Blue */
+.js {width: 75%; background-color: rgb(66, 3, 85);} /* Red */
+.hibernate {width: 80%; background-color: rgb(5, 50, 80);} /* Red */
 .php {width: 60%; background-color: rgb(51, 9, 54);} /* Dark Grey */
-.rest {width: 70%; background-color: rgb(51, 9, 54);} /* Dark Grey */
-.ang {width: 70%; background-color: rgb(51, 9, 54);}
-.sb {width: 85%; background-color: rgb(51, 9, 54);}
-.jq {width: 75%; background-color: rgb(51, 9, 54);} /* Red */
-.ms {width: 90%; background-color: rgb(51, 9, 54);}
-.gt {width: 70%; background-color: rgb(51, 9, 54);}
-.bt {width: 70%; background-color: rgb(51, 9, 54);}
-.hb {width: 50%; background-color: rgb(51, 9, 54);}
+.rest {width: 70%; background-color: rgb(6, 2, 56);} /* Dark Grey */
+.ang {width: 70%; background-color: rgb(224, 40, 40);}
+.sb {width: 85%; background-color: rgb(116, 43, 65);}
+.jq {width: 75%; background-color: rgb(2, 66, 2);} /* Red */
+.ms {width: 90%; background-color: rgb(6, 64, 82);}
+.gt {width: 70%; background-color: rgb(5, 5, 5);}
+.bt {width: 70%; background-color: rgb(3, 61, 58);}
+.hb {width: 50%; background-color: rgb(175, 25, 37);}
