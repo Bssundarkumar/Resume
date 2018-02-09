@@ -10,17 +10,17 @@ import { Params } from '@angular/router';
   styleUrls: ['./experience-details.component.css']
 })
 export class ExperienceDetailsComponent implements OnInit {
-  experience:Experience;
-  id:number;
-  constructor(private experienceService:ExperienceService, private route:ActivatedRoute) { }
+  experience: Experience;
+  id: number;
+  constructor(private experienceService: ExperienceService, private route: ActivatedRoute) { }
 
   ngOnInit() {
     this.route.params.subscribe(
-      (parms:Params)=>{
-        this.id=+parms['id'];
-        this.experience=this.experienceService.getExperienced(this.id);
+      (parms: Params) => {
+        this.id = +parms['id'];
+        this.experience = this.experienceService.getExperienced(this.id);
       }
-    )
+    );
   }
 
 }

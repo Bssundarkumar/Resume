@@ -1,4 +1,4 @@
-import { Component, OnInit ,EventEmitter, Output} from '@angular/core';
+import { Component, OnInit , EventEmitter, Output} from '@angular/core';
 
 
 @Component({
@@ -12,5 +12,4 @@ export class HeaderComponent implements OnInit {
 
   ngOnInit() {
   }
- 
 }

@@ -8,21 +8,21 @@ import { Router } from '@angular/router';
 })
 export class EducationComponent implements OnInit {
 
-  showMode=true;
+  showMode= true;
   constructor(private router: Router) { }
 
   ngOnInit() {
   }
 
-  onShowCertificate(){
-   
+  onShowCertificate() {
+
     this.router.navigate(['education/certifications']);
-    this.showMode=false;
+    this.showMode = false;
   }
-  onHideCertificate(){
+  onHideCertificate() {
     this.router.navigate(['education']);
-    this.showMode=true;
+    this.showMode = true;
   }
- 
+
 
 }

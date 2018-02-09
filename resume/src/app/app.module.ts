@@ -46,7 +46,7 @@ import { ProjectComponent } from './project/project.component';
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [ExperienceService,CertificaionsServices],
+  providers: [ExperienceService, CertificaionsServices],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -7,8 +7,8 @@ import { Router } from '@angular/router';
   styleUrls: ['./certifications.component.css']
 })
 export class CertificationsComponent implements OnInit {
-  showMode=false;
-  constructor(private router:Router) { }
+  showMode= false;
+  constructor(private router: Router) { }
 
   ngOnInit() {
   }

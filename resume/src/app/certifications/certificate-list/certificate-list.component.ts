@@ -1,4 +1,4 @@
-import { Component, OnInit,Output ,EventEmitter} from '@angular/core';
+import { Component, OnInit, Output , EventEmitter} from '@angular/core';
 import { CertificationsModel } from '../certifications.model';
 import { CertificaionsServices } from '../certifications.services';
 
@@ -11,11 +11,11 @@ import { CertificaionsServices } from '../certifications.services';
 })
 export class CertificateListComponent implements OnInit {
   @Output() selectedCertification= new EventEmitter<CertificationsModel>();
-  certificatesList:CertificationsModel[];
+  certificatesList: CertificationsModel[];
   constructor(private certificaionsServices: CertificaionsServices) { }
 
   ngOnInit() {
-    this.certificatesList=this.certificaionsServices.getCertificates();
+    this.certificatesList = this.certificaionsServices.getCertificates();
   }
 
 }
