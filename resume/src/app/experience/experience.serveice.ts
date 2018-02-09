@@ -7,30 +7,32 @@ import { Experience } from "./experience.model";
 @Injectable()
 export class ExperienceService{
 
-    experience1:string[]=['Developed Controller for request, response paradigm by Spring Controllers using Spring-MVC.',
+    experience1: string[]= [ 'Developed an SPA for a client using Angular 2/4/5.',
+                        'Developed Controller for request, response paradigm by Spring Controllers using Spring-MVC.',
                         'Used Maven for project management and build Spring Boot Application.',
                         'Developed RESTful web services using JAX-RS.',
                         'Involved in writing queries to retrieve data from the database using DAO Layer.',
-                        'Developed Components of the UI using, HTML5, JavaScript, CSS3 and angular JS.',
+                        'Developed Components of the UI using, HTML5, JavaScript, CSS3 and angular 4.',
                         'Fixing QA defect for the application'];
     
-    experience2:string[]=['Involved in research related to development of the University related application which provide different services to the students.',
+    experience2: string[]= ['Involved in research related to development of the University related application.',
+                        'Rewrote the current web app using Angular 4, Typescript, HTML5, CSS3.',
                         'Updated existing websites by altering, removing, or adding content as needed.',
                         'Involved in developing the MVC controller using Spring.',
                         'Developed Hibernate in Data Access Layer to access and update information in the database.',
                         'Version control my projects using Git in combination with GitHub.',
-                        'Writing queries to populate the data from database and present it on UI.']
-    experience3:string[]=['Involved in writing impex file and execute them in Hybris platform.',
+                        'Writing queries to populate the data from database and present it on UI.'];
+    experience3: string[]= ['Involved in writing impex file and execute them in Hybris platform.',
                         'Implemented the data access layer using Hibernate persistence framework through Hybris Suit.',
                         'Integrating the current work flow with the existing workflow and Testing all the functionalities.',
                         'Involved in developing DAO Layer using Hibernate.',
                         'Implemented transaction management of Relational Databases using MySQL database. '
                         ]
-    experience4:string[]=['Involved in writing use cases as per the client requirement.',
+    experience4: string[]= ['Involved in writing use cases as per the client requirement.',
                         'Developed various business logics in the service layer of the given application.',
                         'Developed UI using HTML5, CSS3 and JavaScript.',
-                        'Helped the testing team in testing the applications with different scenarios.']
-    private experienceList: Experience[]=[
+                        'Helped the testing team in testing the applications with different scenarios.'];
+    private experienceList: Experience[]= [
         new Experience('Software Engineer Trainee',
                         'Aug 2017 – Dec 2017',
                         'Data Boss International Corp. – New Jersey',
@@ -59,7 +61,7 @@ export class ExperienceService{
     getExperience(){
         return this.experienceList.slice();
     }
-    getExperienced(id:number){
+    getExperienced(id: number){
         return this.experienceList[id];
     }
 
