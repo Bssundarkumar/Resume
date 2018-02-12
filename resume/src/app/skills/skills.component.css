@@ -1,4 +1,13 @@
-
+.test [class*="col-"] {
+    padding: 15px;
+    border: 1px solid #0b4354;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+}
+.container {
+    width: 100%;
+    /* background-color: white; */
+}
 .skill{
    text-align: center;
 }
@@ -6,72 +15,149 @@ hr {
      /* margin-top: -7px; 
      margin-bottom: 7px;  */
     border: 0;
-    border-top: 1px solid rgb(41, 1, 44);
+    border-top: 1px solid #0b4354;
 }
-/* .table {
-    width: 66%;
-    max-width: 100%;
-    margin-bottom: 11px;
-    margin-top: 75px;
-    font-size: 20px;
-}
-.tabCon{
-    text-align: center;
-}
-#firstCol {
-    font-weight: 500;
-    color: white;
-    background-color: rgb(41, 1, 44);
-} */
 
-/* Make sure that padding behaves as expected */
 * {box-sizing:border-box}
 
 /* Container for skill bars */
 .container {
     width: 100%; /* Full width */
-    background-color: white; /* Grey background */
 }
-.ot{
-    margin-top: 13px!important;
-}
+
 h4 {
     /* margin-top: -10px; */
+   
     font-weight: bold;
     text-underline-position: auto;
-    color:rgb(41, 1, 44);
+    color:#0b4354;
 }
-.skills {
-   /* Right-align text */
 
-    padding-right: 10px; /* Add some right padding */
-    line-height: 25px; /* Set the line-height to center the text inside the skill bar, and to expand the height of the container */
-    color: rgb(179, 168, 168); /* White text color */
-}
-.rt{
-    text-align: right; 
-    color: white;
-   
-}
-.lt{
+/* 
+skill */
+/* --- Skills --- */
+h5,h6 {
+	color:black;
     font-weight: bold;
-    text-align: left; 
-    padding-left: 10px;
-    color: white;
 }
-
-.java {width: 80%; background-color: rgb(88, 26, 7);} /* Green */
-.html {width: 90%; background-color: rgb(6, 32, 119);} /* Green */
-.css {width: 85%; background-color: rgb(102, 3, 3);} /* Blue */
-.spring {width: 75%; background-color: rgb(134, 122, 13);} /* Blue */
-.js {width: 75%; background-color: rgb(66, 3, 85);} /* Red */
-.hibernate {width: 80%; background-color: rgb(5, 50, 80);} /* Red */
-.php {width: 60%; background-color: rgb(51, 9, 54);} /* Dark Grey */
-.rest {width: 70%; background-color: rgb(6, 2, 56);} /* Dark Grey */
-.ang {width: 70%; background-color: rgb(224, 40, 40);}
-.sb {width: 85%; background-color: rgb(116, 43, 65);}
-.jq {width: 75%; background-color: rgb(2, 66, 2);} /* Red */
-.ms {width: 90%; background-color: rgb(6, 64, 82);}
-.gt {width: 70%; background-color: rgb(5, 5, 5);}
-.bt {width: 70%; background-color: rgb(3, 61, 58);}
-.hb {width: 50%; background-color: rgb(175, 25, 37);}
+.progress-wrap{
+    position: relative;
+  }
+  
+  .progress .color1,
+  .progress .color1 .bar-width{
+    background: rgb(88, 26, 7);
+  }
+  
+  .progress .color2,
+  .progress .color2 .bar-width{
+    background: #6aa42f;
+  }
+  
+  .progress .color3,
+  .progress .color3 .bar-width{
+    background: #ffcc33;
+  }
+  
+  .progress .color4,
+  .progress .color4 .bar-width{
+    background: #db3615;
+  }
+  .progress .color5,
+  .progress .color5 .bar-width{
+    background: rgb(6, 2, 56);
+  }
+  .progress .color6,
+  .progress .color6 .bar-width{
+    background: rgb(224, 40, 40);
+  }
+  .progress .color7,
+  .progress .color7 .bar-width{
+    background: rgb(6, 32, 119);
+  }
+  .progress .color8,
+  .progress .color8 .bar-width{
+    background: rgb(6, 64, 82);
+  }
+  .progress .color9,
+  .progress .color9 .bar-width{
+    background: rgb(2, 66, 2);
+  }
+  
+  .progress, 
+  .progress-bar {
+    height: 15px;
+    line-height: 15px;
+    background:white;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    border-radius: 0;
+    overflow: visible;
+    text-align: right;
+  }
+  
+  .progress{
+    position: relative;
+  }
+  
+  .progress .bar-width{
+    position: absolute;
+    width: 40px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 700;
+    top: -30px;
+    border-radius: 2px;
+    margin-left: -30px;
+  }
+  
+  .progress span{
+    position: relative;
+  }
+  
+  .progress span:before{
+    content: " ";
+    position: absolute;
+    width: auto;
+    height: auto;
+    border-width: 8px 5px;
+    border-style: solid;
+    bottom: -15px;
+    right: 8px;
+  }
+  
+  .progress .color1 span:before{
+    border-color: rgb(88, 26, 7) transparent transparent transparent;
+  }
+  
+  .progress .color2 span:before{
+    border-color: #6aa42f transparent transparent transparent;
+  }
+  
+  .progress .color3 span:before{
+    border-color: #ffcc33 transparent transparent transparent;
+  }
+  
+  .progress .color4 span:before{
+    border-color: #db3615 transparent transparent transparent;
+  }
+ 
+  .progress .color5 span:before{
+    border-color:  rgb(6, 2, 56) transparent transparent transparent;
+  }
+ 
+  .progress .color6 span:before{
+    border-color:  rgb(224, 40, 40) transparent transparent transparent;
+  }
+  .progress .color7 span:before{
+    border-color:  rgb(6, 32, 119) transparent transparent transparent;
+  }
+  .progress .color8 span:before{
+    border-color:  rgb(6, 64, 82) transparent transparent transparent;
+  }
+  .progress .color9 span:before{
+    border-color:  rgb(2, 66, 2) transparent transparent transparent;
+  }

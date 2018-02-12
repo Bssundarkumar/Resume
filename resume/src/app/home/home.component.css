@@ -5,7 +5,7 @@
 
   }
   .fa-github {
-    background: #070707;
+    background:black;
     color: white;
     width: 100px!important;
 
@@ -13,7 +13,7 @@
   
   .fa-envelope {
     
-    color: rgb(41, 1, 44);
+    color: #0079a1;
   }
   .fa {
     padding-left: 20px;
@@ -35,7 +35,7 @@
 
 .email{
     font-size: 20px;
-    color:rgb(41, 1, 44);
+    color:#064052;
     width: 189px;
 } 
 .fa.pull-left {
@@ -56,8 +56,8 @@ img{
 }
 .address{
     margin-left: 15.3ex;
-    border:1px #070707;
-    color: rgb(41, 1, 44);
+    border:1px #0079a1;
+    color: #0079a1;
 }
 
 .contact{
@@ -67,4 +67,7 @@ img{
 img.center {
     display: block;
     margin: 0 auto;
+}
+h4{
+    color: #0b4354;
 }

@@ -1,13 +1,11 @@
-<a style="cursor:pointer;"
-[routerLink]="[index]"
-routerLinkActive="active" 
-class="list-group-item abc  clearfix">
-<div class="row">
-  <div class="rin pull-left">{{ experience.title}}</div>
-  <div class="rin pull-right">{{ experience.date }}</div>
-</div>
- 
- <div class=" rin row">
-    <h5 >{{ experience.employee }}</h5>
- </div>    
-</a>
+    <a style="cursor:pointer;" [routerLink]="[index]" 
+    routerLinkActive="active" class="list-group-item abc  clearfix">
+      <div class="rin row">
+        <div class=" pull-left">{{experience.title}}</div>
+        <div class=" pull-right">{{experience.date }}</div>
+      </div>
+    
+      <div class="rin row">
+        <h5>{{ experience.employee }}</h5>
+      </div>
+    </a>

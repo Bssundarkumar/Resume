@@ -1,19 +1,22 @@
-/* .list-group-item.active {
-    color: #fff;
-    background-color: #29012c;
-    border-color: #29012c;  
-} */
 .abc{
     background: transparent;
     border: 0; 
 }
-
+.list-group-item {
+   
+    margin-left: auto;
+    margin-right: auto;
+   
+    width: 338px;
+}
+.list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {
+    color: #fff;
+    background-color: #064052;
+    border-color: #064052;
+}
 .rin{
     padding-left: 8px;
     padding-right: 8px;
-}
-.list-group-item.active {
-    color: #fff;
-    background-color: #29012c;
-    border-color: #29012c;  
+   
+    text-align: center;
 }

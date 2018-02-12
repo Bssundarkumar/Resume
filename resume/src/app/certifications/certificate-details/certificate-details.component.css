@@ -1,30 +1,14 @@
-
-
-h5{
-    font-weight: 600;
-}
-.content{
-    /* border: 1px solid #ddd; */
-    border-radius: 4px; 
-    /* margin: 1px; */
-    width: 850px;
-    padding-left: 8px;
-   
- }  
-.col-xs-5 {
-    width: auto; 
-}
 h4{
-    margin-right: 67px;
     color: white;
+    padding-left: 8px;
+    padding-right: 8px;
 }
 .row1{
-    background-color: rgb(41, 1, 44);   
+    background-color: rgb(6, 64, 82);   
+    margin-left: auto;
+    margin-right: auto; 
 }
-h3{
-    color: rgb(41, 1, 44);
-    font-weight: 500;
-}
+
 .img1{
     display: block;
     margin-left: auto;
@@ -32,7 +16,7 @@ h3{
     max-height: 390px;
 }
 .row2{
-    color: rgb(41, 1, 44);
+  
     height: 35px;
     text-align: center;
     font-size: 16px;

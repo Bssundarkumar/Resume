@@ -1,79 +1,56 @@
-<div class="row">
-    <div class="col-xs-12">
-        <Button class="btnhi btn btn-primary " 
-        (click)="onHideCertificate()" *ngIf="!showMode">
-        <i class="fa fa-hand-o-left" aria-hidden="true"></i> Back To Education</Button>           
-    </div>
-    
-    <div class="col-xs-12">
-        <router-outlet *ngIf="!showMode"></router-outlet>
-    </div>
-</div>
-
-
-
-
-<div class="row" *ngIf="showMode">
-   
-    <div class="col-xs-7 tabCon">
-        <div class="row">
-              
-        <div class="col-xs-3">
-            
-                <span >
-                        <img
-                        src="assets/images/ucm.jpg"
-                        alt="sundar"
-                          class="img-responsive"
-                          style="max-height: 150px;">
-                 </span>
+<div class="container-fluid">
+    <div class="row" *ngIf="!showMode">
+        <div class="col-xs-12 col-sm-12 col-md-12">
+            <Button class="btnhi btn btn-primary " (click)="onHideCertificate()">
+                <i class="fa fa-hand-o-left" aria-hidden="true"></i> Back To Education</Button>
         </div>
-        <div class="col-xs-9">
-            <br>
-                <h3>Master of Science</h3>
-                    <h4> Computer Science  </h4>
-                <h4> University of Central Missouri - Missouri</h4>
-                <h5>Jan 2016 - Dec 2017</h5>
+        <div class="col-xs-12 col-sm-12 col-md-12">
+            <router-outlet></router-outlet>
         </div>
     </div>
-    <hr>
-    <div class="row">
-        <div class="col-xs-3">
-                <span >
-                        <img
-                        src="assets/images/jntuk.jpg"
-                        alt="sundar"
-                          class="img-responsive"
-                          style="max-height: 180px;">
-                 </span>
-        </div>
-        <div class="col-xs-9">
-            <br>
-                <h3>Bachelor of Technology</h3>
-                    <h4> Electronics and Communication Engineering</h4>
-                <h4>Jawaharlal Nehru Technological University - India</h4>
-                <h5>July 2010 - May 2014</h5>
-        </div>
-    </div>
-  
-        
-    </div>
-    
-    <div class="col-xs-5 skill">
+    <div class="row" *ngIf="showMode">
+        <div class="col-xs-12 col-sm-6 col-lg-7">
             <div class="row">
-                    <span >
-                           <img
-                           src="assets/images/masters.jpg"
-                           alt="sundar"
-                             class="img-responsive"
-                             style="max-height: 600px;">
-                    </span> 
-                    <div class="col-xs-12 col-md-8 col-sm-10 col-sm-offset-1 col-md-offset-2">
-                            <Button class="btn btn-primary" (click)="onShowCertificate()" *ngIf="showMode"><i class="fa fa-hand-o-right" aria-hidden="true"></i> Certifications</Button>   
-                            
-                     </div>
+                <div class="col-xs-6 col-lg-4">
+                    <span>
+                        <img src="assets/images/ucm.jpg" alt="sundar" class="img-responsive">
+                    </span>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-lg-8">
+                    <br>
+                    <h3>Master of Science</h3>
+                    <h4> Computer Science </h4>
+                    <h4> University of Central Missouri - Missouri</h4>
+                    <h5>Jan 2016 - Dec 2017</h5>
+                </div>
             </div>
-       </div>
-</div>
+            <hr>
+            <div class="row">
+                <div class="col-xs-6 col-lg-4">
+                    <span>
+                        <img src="assets/images/jntuk.jpg" alt="sundar" class="img-responsive">
+                    </span>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-lg-8">
+                    <br>
+                    <h3>Bachelor of Technology</h3>
+                    <h4> Electronics and Communication Engineering</h4>
+                    <h4>Jawaharlal Nehru Technological University - India</h4>
+                    <h5>July 2010 - May 2014</h5>
+                </div>
+            </div>
+        </div>
 
-  
+        <div class="col-xs-6 col-lg-5">
+            <div class="row">
+                <span>
+                    <img src="assets/images/masters.jpg" alt="sundar" class="img-responsive img2">
+                </span>
+            </div>
+            <div class="row">
+                <Button class="btn btn-primary" (click)="onShowCertificate()" *ngIf="showMode">
+                    <i class="fa fa-hand-o-right"></i> Certifications</Button>
+            </div>
+        </div>
+    </div>
+</div>

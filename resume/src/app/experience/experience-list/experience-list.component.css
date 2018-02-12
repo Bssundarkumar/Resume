@@ -1,4 +1,4 @@
-.list-group-item:first-child{
+ .list-group-item:first-child{
     border-top-left-radius: 4px!important;
     border-top-right-radius: 4px!important;
 }
@@ -8,16 +8,14 @@
 }
 .list-group-item {
     margin-bottom: -1;
-    margin-left: 38px;
-    margin-right: 25px;
-    width: 338px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width:338px;
     border: 1px solid #ddd !important;
-    padding: 0;
-    /* padding-top: 1px; */
-    /* padding-bottom: 1px; */
+    padding: 0; 
 }
 
 
 
 
-
+ 

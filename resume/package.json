@@ -24,6 +24,7 @@
     "angular-font-awesome": "^3.1.1",
     "angular2-svg-icons": "^1.1.1",
     "bootstrap": "^3.3.7",
+    "bootswatch": "^3.3.7",
     "core-js": "^2.4.1",
     "font-awesome": "^4.7.0",
     "jquery": "^3.3.1",

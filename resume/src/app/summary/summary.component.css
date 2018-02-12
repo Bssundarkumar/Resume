@@ -1,33 +1,38 @@
-.email {
-    font-size: 20px;
-    color: black;
-    width: auto!important;
-}
 
 .fa-desktop {
-    background: rgb(41, 1, 44);
+    background: #064052;
     color: white;
     font-size: 120px;
     width: 220px!important;
     padding: 20px;
-    border-radius: 30px;
+   text-align: center;
+   
+
 }
 .fa-file-code-o{
-    background:rgb(41, 1, 44);
+    background:#064052;
     color: white;
     font-size: 120px;
     width: 220px !important;
     padding: 20px;
-}
-.logo{
-    margin-right: 2.1em;
-}
-.fa.pull-left {
-    margin-right: -7.7em;
-}
-.fa {
-    /* padding-left: 20px; */  
     text-align: center;
-    /* text-decoration: none; */
+}
+/* .logo{
+    margin-right: 2.1em;
+} */
+/* .fa.pull-left {
+    margin-right: -7.7em;
+} */
+.fa {
     border-radius: 30px;
+    display: block;
+    margin: 0 auto;
+}
+.skills{
+    font-size: 20px;
+    font-weight: 500;
+}
+.skill{
+    font-weight: bold;
+    text-align: center;
 }
