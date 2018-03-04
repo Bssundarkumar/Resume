@@ -8,12 +8,10 @@ import { ExperienceService } from './experience.serveice';
   styleUrls: ['./experience.component.css']
 })
 export class ExperienceComponent implements OnInit {
-  
 
   constructor() { }
 
   ngOnInit() {
-    
   }
 
 }

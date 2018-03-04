@@ -1,5 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { HttpClientModule} from '@angular/common/http';
+import {HttpClientInMemoryWebApiModule} from 'angular-in-memory-web-api';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
@@ -20,6 +22,8 @@ import { CertificateListComponent } from './certifications/certificate-list/cert
 import { CertificaionsServices } from './certifications/certifications.services';
 import { CertificteComponent } from './certifications/certificate-list/certificte/certificte.component';
 import { ProjectComponent } from './project/project.component';
+import { InMemoryWebService } from './inMemoryWebApiService';
+
 
 
 @NgModule({
@@ -44,7 +48,9 @@ import { ProjectComponent } from './project/project.component';
 
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
+    HttpClientInMemoryWebApiModule.forRoot(InMemoryWebService, { passThruUnknownUrl: true})
   ],
   providers: [ExperienceService, CertificaionsServices],
   bootstrap: [AppComponent]

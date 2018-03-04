@@ -4,6 +4,8 @@ import { EventEmitter } from '@angular/core';
 import { Experience } from '../experience.model';
 import { ExperienceService } from '../experience.serveice';
 import { ActivatedRoute } from '@angular/router';
+import { Subscription } from 'rxjs/Subscription';
+import { Subject } from 'rxjs/Subject';
 
 @Component({
   selector: 'app-experience-list',
@@ -12,11 +14,17 @@ import { ActivatedRoute } from '@angular/router';
 })
 export class ExperienceListComponent implements OnInit {
   // @Output() selectedExperience=new EventEmitter<Experience>();
-  experiences: Experience[];
+ experiences: Experience[];
+ experlist= new Subject<Experience[]>();
   constructor(private experienceService: ExperienceService) { }
 
   ngOnInit() {
-    this.experiences = this.experienceService.getExperience();
+     this.experienceService.getExperience().subscribe(
+      (experienceList) => {
+        this.experlist.next(experienceList);
+        this.experiences = experienceList;
+      }
+    );
   }
 
 

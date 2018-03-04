@@ -11,6 +11,7 @@ import { Params } from '@angular/router';
 })
 export class ExperienceDetailsComponent implements OnInit {
   experience: Experience;
+  experiences: Experience[];
   id: number;
   constructor(private experienceService: ExperienceService, private route: ActivatedRoute) { }
 
@@ -18,7 +19,12 @@ export class ExperienceDetailsComponent implements OnInit {
     this.route.params.subscribe(
       (parms: Params) => {
         this.id = +parms['id'];
-        this.experience = this.experienceService.getExperienced(this.id);
+        // this.experienceService.getExperienced(this.id);
+        this.experienceService.getExperience().subscribe(
+          (experienceList) => {
+            this.experience = experienceList[this.id];
+          }
+        );
       }
     );
   }
