@@ -46,6 +46,7 @@ const appRoute: Routes = [
             { path: ':id', component: CertificateDetailsComponent }
         ]
     },
+    { path: 'addEmployee', component: ExperienceStartComponent },
     { path: 'projects', component: ProjectComponent },
     { path: '**', redirectTo: 'home', pathMatch: 'full' }
 ];

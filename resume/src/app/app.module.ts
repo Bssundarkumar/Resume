@@ -23,6 +23,7 @@ import { CertificaionsServices } from './certifications/certifications.services'
 import { CertificteComponent } from './certifications/certificate-list/certificte/certificte.component';
 import { ProjectComponent } from './project/project.component';
 import { InMemoryWebService } from './inMemoryWebApiService';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 
 
@@ -49,6 +50,8 @@ import { InMemoryWebService } from './inMemoryWebApiService';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    FormsModule,
+    ReactiveFormsModule,
     HttpClientModule,
     HttpClientInMemoryWebApiModule.forRoot(InMemoryWebService, { passThruUnknownUrl: true})
   ],

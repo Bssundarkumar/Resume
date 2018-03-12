@@ -3,17 +3,17 @@ export class Experience {
     public date: string;
     public employee: string;
     public description: string;
-    public Responsibilities: string[];
+    public responsibilities: string[];
     public skill: string;
 
     constructor( title: string, date: string,
          employee: string, description: string,
-         Responsibilities: string[], skill) {
+         responsibilities: string[], skill) {
             this.title = title;
             this.date = date;
             this.employee = employee;
             this.description = description;
-            this.Responsibilities = Responsibilities;
+            this.responsibilities = responsibilities;
             this.skill = skill;
     }
 }

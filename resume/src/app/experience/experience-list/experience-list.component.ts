@@ -12,20 +12,12 @@ import { Subject } from 'rxjs/Subject';
   templateUrl: './experience-list.component.html',
   styleUrls: ['./experience-list.component.css']
 })
-export class ExperienceListComponent implements OnInit {
-  // @Output() selectedExperience=new EventEmitter<Experience>();
- experiences: Experience[];
- experlist= new Subject<Experience[]>();
-  constructor(private experienceService: ExperienceService) { }
+export class ExperienceListComponent implements OnInit  {
+  // @Output() selectedExperience = new EventEmitter<Experience>();
+  experiences: Experience[];
+  constructor(private experienceService: ExperienceService) {}
 
   ngOnInit() {
-     this.experienceService.getExperience().subscribe(
-      (experienceList) => {
-        this.experlist.next(experienceList);
-        this.experiences = experienceList;
-      }
-    );
-  }
-
-
+   this.experiences = this.experienceService.getExperience();
+   }
 }

@@ -13,20 +13,15 @@ export class ExperienceDetailsComponent implements OnInit {
   experience: Experience;
   experiences: Experience[];
   id: number;
-  constructor(private experienceService: ExperienceService, private route: ActivatedRoute) { }
+  constructor(
+    private experienceService: ExperienceService,
+    private route: ActivatedRoute
+  ) {}
 
   ngOnInit() {
-    this.route.params.subscribe(
-      (parms: Params) => {
-        this.id = +parms['id'];
-        // this.experienceService.getExperienced(this.id);
-        this.experienceService.getExperience().subscribe(
-          (experienceList) => {
-            this.experience = experienceList[this.id];
-          }
-        );
-      }
-    );
+     this.route.params.subscribe((parms: Params) => {
+      this.id = +parms['id'];
+       this.experience = this.experienceService.getExperienced(this.id);
+     });
   }
-
 }
