@@ -6,7 +6,7 @@ export class CertificaionsServices {
     'June 2017', 'https://www.udemy.com/certificate/UC-YS2Z9OUV/', 'assets/images/Spring-Hibernate.jpg'),
     new CertificationsModel('Typescript', 'Certificate Of Completion -Typescript',
     'Sept 2017', 'https://www.udemy.com/certificate/UC-JD18N3KS/', 'assets/images/TypeScript.jpg'),
-    new CertificationsModel('Angular 2', 'Certificate Of Completion -Angular 2',
+    new CertificationsModel('Angular 2/4/5', 'Certificate Of Completion -Angular 2',
     'Sept 2017',
     'https://www.udemy.com/certificate/UC-VLNL20SI/',
     'assets/images/angular 2 full certification.jpg')
