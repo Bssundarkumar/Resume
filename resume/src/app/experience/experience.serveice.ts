@@ -32,13 +32,13 @@ export class ExperienceService {
                         'Developed UI using HTML5, CSS3 and JavaScript.',
                         'Helped the testing team in testing the applications with different scenarios.'];
     private experienceList: Experience[]= [
-        new Experience('Software Engineer Trainee',
-                        'Aug 2017 – Dec 2017',
-                        'Data Boss International Corp. – New Jersey',
+        new Experience('Full Stack Developer',
+                        'Aug 2017 – Till Date',
+                        'Comcast. – Philadelphia, PA',
                         // tslint:disable-next-line:max-line-length
                         'I have developed product distribution module of web application for the Client Globe Pharma related to their products and the product maintenance.',
                         this.experience1,
-                        'Spring Boot, Spring, Hibernate, Java/J2EE, HTML5, CSS3, angular JS, MySQL, Eclipse.'),
+                        'Angular 2, TypeScript, Node JS, Firebase, REST API, REST services, Jasmine, Karma, Visual Studio.'),
         new Experience('Java Developer',
                         'Jan 2017 - May 2017',
                         'University of Central Missouri – Missouri',
