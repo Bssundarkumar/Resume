@@ -34,7 +34,7 @@ export class ExperienceService {
     private experienceList: Experience[]= [
         new Experience('Full Stack Developer',
                         'Aug 2017 – Till Date',
-                        'Comcast. – Philadelphia, PA',
+                        'Orbit Health Care – East Brunswick, NJ',
                         // tslint:disable-next-line:max-line-length
                         'I have developed product distribution module of web application for the Client Globe Pharma related to their products and the product maintenance.',
                         this.experience1,
