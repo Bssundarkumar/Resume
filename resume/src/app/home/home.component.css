@@ -1,5 +1,5 @@
 .sqr{
-    background-image: url("/../assets/images/4.3.jpg");
+    background-image: url("/../assets/images/4.3.gif");
     
     border-radius: 10px;
     padding-left: 40px;
@@ -7,7 +7,7 @@
     padding-bottom: 20px;
 }
 .sml{
-        background-image: url("/../assets/images/2.3.jpg");
+        background-image: url("/../assets/images/2.3.gif");
         border-radius: 10px;
         padding: 10px;  
 }
