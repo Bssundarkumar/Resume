@@ -5,6 +5,7 @@ import {HttpClientInMemoryWebApiModule} from 'angular-in-memory-web-api';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
+import { FooterComponent} from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
 import { SummaryComponent } from './summary/summary.component';
 import { SkillsComponent } from './skills/skills.component';
@@ -27,10 +28,12 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
+    FooterComponent,
     HomeComponent,
     SummaryComponent,
     SkillsComponent,

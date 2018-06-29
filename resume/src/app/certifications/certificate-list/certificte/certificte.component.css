@@ -7,9 +7,8 @@
     width: 338px;
 }
 .list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {
-    color: #fff;
-    background-color: #064052;
-    border-color: #064052;
+    color: #021419;
+    background-image: url("/../assets/images/1.9.jpg");
 }
 .rin{
     padding-left: 8px;

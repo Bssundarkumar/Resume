@@ -1,38 +1,38 @@
 <div class="container-fluid">
   <div class="row row1">
     <div class="pull-left">
-      <h4>{{experience.title}}</h4>
+      <h4 style="font-weight: 600;">{{experience.title}}</h4>
     </div>
     <div class="pull-right">
-      <h4>{{experience.date}}</h4>
+      <h4 style="font-weight: 600;">{{experience.date}}</h4>
     </div>
   </div>
-  <div class="container">
+  <div class="expp summi">
     <div class="row">
-      <div class="col-xs-12 col-sm-12 col-md-12">
-        <h3>{{experience.employee}}</h3>
+      <div class="col-xs-12  col-md-12">
+        <h3 style="font-weight: 600;">{{experience.employee}}</h3>
       </div>
     </div>
     <div class="row">
-      <div class="col-xs-12 col-sm-12 col-md-12">
-        <h5>Description:</h5>
-        <h6>{{experience.description}}</h6>
+      <div class="col-xs-12  col-md-12">
+        <h5 style="font-weight: 600;">Description:</h5>
+        <h6 style="font-weight: 600;">{{experience.description}}</h6>
       </div>
     </div>
     <div class="row">
-      <div class="col-xs-12 col-sm-12 col-md-12">
-        <h5>Responsibilities:</h5>
-        <ul>
+      <div class="col-xs-12  col-md-12 ">
+        <h5 style="font-weight: 600;">Responsibilities:</h5>
+        <ul >
           <li *ngFor="let responsibility of experience.responsibilities">
-            <h6>{{responsibility}}</h6>
+            <h6 style="font-weight: 600;">{{responsibility}}</h6>
           </li>
         </ul>
       </div>
     </div>
     <div class="row">
       <div class="col-xs-12 col-sm-12 col-md-12">
-        <h5>Skills:</h5>
-        <h6>{{experience.skill}}</h6>
+        <h5 style="font-weight: 600;">Skills:</h5>
+        <h6 style="font-weight: 600;">{{experience.skill}}</h6>
       </div>
     </div>
   </div>

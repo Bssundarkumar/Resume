@@ -1,3 +1,23 @@
+.sqr{
+    background-image: url("/../assets/images/4.3.jpg");
+    
+    border-radius: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+}
+.sml{
+        background-image: url("/../assets/images/2.3.jpg");
+        border-radius: 10px;
+        padding: 10px;  
+}
+
+.row{
+    
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 10px;
+}
 .fa-linkedin {
     background: #007bb5;
     color: white;
@@ -12,15 +32,16 @@
   }
 
   .logo{
+    
       margin-left: auto;
       margin-right: auto;
-        text-align: left;
-        margin-top: 20PX;
+        text-align: center;
+      padding: 10px;
   }
   
   .fa-envelope {
     
-    color: #0079a1;
+    color: #021419;
   }
   .fa {
    
@@ -31,10 +52,15 @@
     /* margin: 5px 2px; */
   }
   
-  .fa:hover {
+  /* .fa:hover {
       opacity: 0.7;
-  }
-
+  } */
+.img5{
+    max-width: 90px;
+    max-height: 70px;
+    background-image: url("/../assets/images/4.5.jpg");
+    border-radius: 700px;
+}
   .list-group-item-heading {
     margin-top: 40px;
     margin-bottom: 5px;
@@ -42,8 +68,8 @@
 
 .email{
     font-size: 20px;
-    color:#064052;
-    width: 189px;
+    color:#000506;
+    
 } 
 
 img{
@@ -51,14 +77,15 @@ img{
     margin-left: auto;
     margin-right: auto;
     /* border-radius: 28px; */
-    margin-top: 25px;
-    max-height: 450PX;
+    margin-top: 2px;
+    max-height: 527PX;
+   padding-bottom: 2PX;
  
 }
 .address{
-    margin-left: 15.3ex;
+   
     border:1px #0079a1;
-    color: #0079a1;
+    color: #000506;
 }
 
 .contact{
@@ -70,5 +97,13 @@ img.center {
     margin: 0 auto;
 }
 h4{
-    color: #0b4354;
+    color: #021419; 
+}
+h3{
+    color: #021419; 
+}
+hr {
+    
+    border-top: 3px solid #064052;
+    margin: auto;
 }

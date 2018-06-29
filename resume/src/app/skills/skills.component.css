@@ -1,3 +1,19 @@
+.saq{
+  background-image: url("/../assets/images/4.3.jpg");
+  
+  border-radius: 10px;
+  
+}
+.slm{
+      background-image: url("/../assets/images/199.jpg");
+      border-radius: 10px;
+}
+.srt{
+  background-image: url("/../assets/images/2.2.jpg");
+  border-radius: 10px;
+}
+
+
 .test [class*="col-"] {
     padding: 15px;
     border: 1px solid #0b4354;
@@ -30,7 +46,7 @@ h4 {
    
     font-weight: bold;
     text-underline-position: auto;
-    color:#0b4354;
+    color:#021419;
 }
 
 /* 
@@ -48,6 +64,11 @@ h5,h6 {
   .progress .color1 .bar-width{
     background: rgb(88, 26, 7);
   }
+
+
+.row{
+  margin-bottom: 10px;
+}
   
   .progress .color2,
   .progress .color2 .bar-width{

@@ -1,14 +1,64 @@
 
 h4{
-    color: white;
+    color:#021419;
     padding-left: 8px;
     padding-right: 8px;
 }
 .row1{
-    background-color: rgb(6, 64, 82);   
+    background-image: url("/../assets/images/1.9.jpg");  
+    margin-top: 5px; 
+    margin-right: 5px; 
+    margin-left: 5px; 
+    border-radius: 10px;
     
 }
-h3,h5{
-    color: rgb(6, 64, 82);
+h3,h5,h6{
+    color: #021419;
    
+}
+.summi {
+  float: left;
+  width: 100%;
+  overflow-y: auto;
+  height: 400px;
+}
+
+.expp{
+    background-image: url("/../assets/images/4.3.jpg");
+    margin-left:10px;
+    border-radius: 10px;
+    padding-left: 10px;
+
+    
+  }
+  .ucm{
+        background-image: url("/../assets/images/1.9.jpg");
+        border-radius: 10px;
+        margin:5px;
+        padding: 10px;
+  }
+
+  ::-webkit-scrollbar {
+    width: 10px;
+    margin-right: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+    border-radius: 10px;
+    margin-right: 5px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(15,111, 198); 
+    border-radius: 10px;
+    margin-right: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(15,111, 198); 
+    margin-right: 5px;
 }

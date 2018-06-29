@@ -1,3 +1,16 @@
+.jntuk{
+    background-image: url("/../assets/images/4.3.jpg");
+    
+    border-radius: 10px;
+    
+  }
+  .ucm{
+        background-image: url("/../assets/images/1.9.jpg");
+        border-radius: 10px;
+        margin:5px;
+        padding: 10px;
+  }
+
 .btnhi{
     margin-top: -17px!important;
     padding: 2px 7px!important;
@@ -39,15 +52,14 @@ img{
    
 }
 .btn-primary {
-    color: #fff;
-    background-color: #064052;
-    border-color: #064052;
+    color: #021419;
+    background-image: url("/../assets/images/4.3.jpg");
 }
 hr {
     
-    border-top: 3px solid #064052;
+    border-top: 3px solid #021419;
     margin: auto;
 }
 h3{
-    color:#0b4354;
+    color:#021419;
 }
