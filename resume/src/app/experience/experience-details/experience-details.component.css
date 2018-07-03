@@ -5,7 +5,7 @@ h4{
     padding-right: 8px;
 }
 .row1{
-    background-image: url("/../assets/images/1.9.gif");  
+    background-image: url("/../assets/images/bg1.gif");  
     margin-top: 5px; 
     margin-right: 5px; 
     margin-left: 5px; 
@@ -24,7 +24,7 @@ h3,h5,h6{
 }
 
 .expp{
-    background-image: url("/../assets/images/4.3.gif");
+    background-image: url("/../assets/images/bg4.gif");
     margin-left:10px;
     border-radius: 10px;
     padding-left: 10px;
@@ -32,7 +32,7 @@ h3,h5,h6{
     
   }
   .ucm{
-        background-image: url("/../assets/images/1.9.gif");
+        background-image: url("/../assets/images/bg1.gif");
         border-radius: 10px;
         margin:5px;
         padding: 10px;

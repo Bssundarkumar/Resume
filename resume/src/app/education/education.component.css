@@ -1,11 +1,11 @@
 .jntuk{
-    background-image: url("/../assets/images/4.3.gif");
+    background-image: url("/../assets/images/bg4.gif");
     
     border-radius: 10px;
     
   }
   .ucm{
-        background-image: url("/../assets/images/1.9.gif");
+        background-image: url("/../assets/images/bg1.gif");
         border-radius: 10px;
         margin:5px;
         padding: 10px;
@@ -53,7 +53,7 @@ img{
 }
 .btn-primary {
     color: #021419;
-    background-image: url("/../assets/images/4.3.gif");
+    background-image: url("/../assets/images/bg4.gif");
 }
 hr {
     

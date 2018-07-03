@@ -1,5 +1,5 @@
 .sqr{
-    background-image: url("/../assets/images/4.3.gif");
+    background-image: url("/../assets/images/bg4.gif");
     
     border-radius: 10px;
     padding-left: 40px;
@@ -7,7 +7,7 @@
     padding-bottom: 20px;
 }
 .sml{
-        background-image: url("/../assets/images/2.3.gif");
+        background-image: url("/../assets/images/bg3.gif");
         border-radius: 10px;
         padding: 10px;  
 }
@@ -58,7 +58,7 @@
 .img5{
     max-width: 90px;
     max-height: 70px;
-    background-image: url("/../assets/images/4.5.jpg");
+    background-image: url("/../assets/images/bg5.gif");
     border-radius: 700px;
 }
   .list-group-item-heading {

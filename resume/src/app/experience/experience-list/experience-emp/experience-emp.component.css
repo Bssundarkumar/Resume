@@ -11,7 +11,7 @@
 }
 .list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {
     color: #021419;
-    background-image: url("/../assets/images/1.9.gif");
+    background-image: url("/../assets/images/bg1.gif");
 }
 .rin{
     padding-left: 8px;

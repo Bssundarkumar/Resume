@@ -4,13 +4,13 @@ h4{
     padding-right: 8px;
 }
 .jntuk{
-    background-image: url("/../assets/images/4.3.gif");
+    background-image: url("/../assets/images/bg4.gif");
     
     border-radius: 10px;
     
   }
 .row1{
-    background-image: url("/../assets/images/1.9.gif"); 
+    background-image: url("/../assets/images/bg1.gif"); 
     margin-left: auto;
     margin-right: auto; 
 }
@@ -22,7 +22,7 @@ h4{
     max-height: 390px;
 }
 .row2{
-    background-image: url("/../assets/images/1.9.gif"); 
+    background-image: url("/../assets/images/bg1.gif"); 
    
     height: 35px;
     text-align: center;
