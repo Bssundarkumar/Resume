@@ -8,6 +8,8 @@
 }
 .sml{
         background-image: url("/../assets/images/bg3.gif");
+        background-color: #20ccc0;
+        background-color: #f4b973;
         border-radius: 10px;
         padding: 10px;  
 }
@@ -59,6 +61,7 @@
     max-width: 90px;
     max-height: 70px;
     background-image: url("/../assets/images/bg5.gif");
+    background-color: #196fc2;
     border-radius: 700px;
 }
   .list-group-item-heading {

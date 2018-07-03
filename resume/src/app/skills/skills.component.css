@@ -1,15 +1,18 @@
 .saq{
   background-image: url("/../assets/images/bg4.gif");
+  background-color: #20ccc0;
   
   border-radius: 10px;
   
 }
 .slm{
       background-image: url("/../assets/images/bg6.gif");
+      background-color: #d2b734;
       border-radius: 10px;
 }
 .srt{
   background-image: url("/../assets/images/bg2.gif");
+  background-color: #fedbb5;
   border-radius: 10px;
 }
 

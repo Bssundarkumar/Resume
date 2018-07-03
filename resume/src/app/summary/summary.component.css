@@ -1,12 +1,13 @@
 .sam {
   background-image: url("/../assets/images/bg4.gif");
-
+  background-color: #20ccc0;
   border-radius: 10px;
   padding: 15px;
   margin: 15px;
 }
 .sur {
   background-image: url("/../assets/images/bg6.gif");
+  background-color: #d2b734;
   border-radius: 10px;
   padding: 10px;
 }
