@@ -12,6 +12,8 @@ export class ExperienceService {
     'Developed REST controllers using Spring REST to serve the UI with required JSON data.',
     'Used Selectors, Events and Dom Manipulation using components in Angular 2 for updating content on DOM nodes.',
     'Used ngrx in the angular to get the data from rest api and to manipulate them.',
+    'Involved in developing the API’s using Spring Boot.',
+    'Used Swagger Framework to implement REST API.',
     'Used GitHub to maintain the versions of the source code of the project.',
     'Followed Test Driven Development (TDD) for the components and used Jasmine for unit testing.',
     'Helping the QA team in testing the application.',
@@ -67,7 +69,7 @@ export class ExperienceService {
                         'Helped the testing team in testing the applications with different scenarios.'];
     private experienceList: Experience[]= [
         new Experience('Full Stack Developer',
-                        'June 2018 – Till Date',
+                        'Nov 2017 – Till Date',
                         'Inno-360 – East Brunswick, NJ',
                         // tslint:disable-next-line:max-line-length
                         'Here the Project is a web application is a search application with backend Java and frontend using Angular. Here I involved in developing the components of the application and developing charts using highcharts and d3.js',
@@ -75,7 +77,7 @@ export class ExperienceService {
                         // tslint:disable-next-line:max-line-length
                         'Angular 2/4, TypeScript, Java Spring MVC, High charts, D3.JS, REST API, REST services, Jasmine, Karma, Visual Studio Code, Spring Tool Suite, Apache Solr.'),
         new Experience('Full Stack Developer',
-                        'Aug 2016 – May 2018',
+                        'Aug 2016 – Oct 2017',
                         'Orbit Health Care – East Brunswick, NJ',
                         // tslint:disable-next-line:max-line-length
                         'Here the Project is a web application related to Health Care.Here I developed product distribution module of web application for the Client Globe Pharma related to their products and the product maintenance.',
