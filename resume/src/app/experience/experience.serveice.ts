@@ -6,6 +6,22 @@ import { Experience } from './experience.model';
 
 @Injectable()
 export class ExperienceService {
+  
+     experience5: string[]= ['Worked at a senior level within the Customer Resiliency department of CapitalOne Card Services on platform Contact Strategy Management (CSM).',
+    'Led the development effort to reduce and rewrite a core service using clustered computing, reducing service runtime from 15+ hours to 90 minutes.',
+    'Developed applications using Java Spark and Spark-SQL/Streaming for fast and efficient Big Data transformation and processing.',
+    'Worked extensively with Spark Core, Spark Streaming and Spark SQL modules.',
+    'Developed UDFs in Java Spark for complex transformations and streamlined data processing.',
+    'Deployed applications within an AWS EMR cluster, ensuring proficient stress testing and performance tuning of the application workers and memory.',
+    'Routinely deployed application enhancements and directly managed Production releases.',
+    'Integrated a Spring Boot microservice to produce and stream Kafka messages within the core Spark application.',
+    'Built real time data pipelines by developing Spark streaming applications for Kafka producers and Kafka consuming.',
+    'Modernized various communication channels for contacting delinquent customers through Phone Dialing (manual & auto), Letter, Email and SMS using Spring Boot and microservices principles.',
+    'Developed RESTful APIs using the Feign Framework.',
+    'Created measured statistics and analytics using a Splunk Dashboard to monitor real-time data flow.',
+    'Integrated with PagerDuty to ensure adequate incident response.'];
+  
+  
     // tslint:disable-next-line:max-line-length
     experience4: string[]= ['Involved in creating Single Page Application with loading multiple views using route services and adding more user experience to make it more dynamic by using Angular 2.',
     'Involved in Developing Visualizations using High chats, High Maps and D3.js.',
@@ -68,8 +84,17 @@ export class ExperienceService {
                         'Developed UI using HTML5, CSS3 and JavaScript.',
                         'Helped the testing team in testing the applications with different scenarios.'];
     private experienceList: Experience[]= [
+      new Experience('Senior Software Develope',
+                        'Oct 2018 – Till Date',
+                        'Capital One – McLean, VA',
+                        // tslint:disable-next-line:max-line-length
+                        'CapitalOne Financial Corporation is a bank holding company specializing in credit cards, auto loans, banking and savings accounts.',
+                        this.experience5,
+                        // tslint:disable-next-line:max-line-length
+                        'Java 8, Microservices, Spring Boot, PostgreSQL, Apache Kafka, Apache Spark, RESTful Web Services, OAuth, AWS EMR, AWS S3, AWS Lambda, AWS RDS, Feign Framework, Splunk.'),
+       
         new Experience('Full Stack Developer',
-                        'Nov 2017 – Till Date',
+                        'Nov 2017 – Oct 2018',
                         'Inno-360 – East Brunswick, NJ',
                         // tslint:disable-next-line:max-line-length
                         'Here the Project is a web application is a search application with backend Java and frontend using Angular. Here I involved in developing the components of the application and developing charts using highcharts and d3.js',
